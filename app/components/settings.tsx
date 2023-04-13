@@ -105,12 +105,12 @@ export function Settings(props: { closeSettings: () => void }) {
   }>();
   const [loadingUsage, setLoadingUsage] = useState(false);
   function checkUsage() {
-    setLoadingUsage(true);
-    requestUsage()
-      .then((res) => setUsage(res))
-      .finally(() => {
-        setLoadingUsage(false);
-      });
+//     setLoadingUsage(true);
+//     requestUsage()
+//       .then((res) => setUsage(res))
+//       .finally(() => {
+//         setLoadingUsage(false);
+//       });
   }
 
   const accessStore = useAccessStore();
