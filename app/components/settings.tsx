@@ -365,7 +365,7 @@ export function Settings(props: { closeSettings: () => void }) {
             <></>
           )}
 
-          <SettingItem
+<!--           <SettingItem
             title={Locale.Settings.Token.Title}
             subTitle={Locale.Settings.Token.SubTitle}
           >
@@ -401,7 +401,7 @@ export function Settings(props: { closeSettings: () => void }) {
                 onClick={checkUsage}
               />
             )}
-          </SettingItem>
+          </SettingItem> -->
 
           <SettingItem
             title={Locale.Settings.HistoryCount.Title}
