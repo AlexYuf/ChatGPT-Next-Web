@@ -132,19 +132,19 @@ const cn = {
       Placeholder: "请输入访问密码",
     },
 //     Model: "模型 (model)",
-    Temperature: {
-      Title: "随机性 (temperature)",
-      SubTitle: "值越大，回复越随机，大于 1 的值可能会导致乱码",
-    },
+//     Temperature: {
+//       Title: "随机性 (temperature)",
+//       SubTitle: "值越大，回复越随机，大于 1 的值可能会导致乱码",
+//     },
 //     MaxTokens: {
 //       Title: "单次回复限制 (max_tokens)",
 //       SubTitle: "单次交互所用的最大 Token 数",
 //     },
-    PresencePenlty: {
-      Title: "话题新鲜度 (presence_penalty)",
-      SubTitle: "值越大，越有可能扩展到新话题",
-    },
-  },
+//     PresencePenlty: {
+//       Title: "话题新鲜度 (presence_penalty)",
+//       SubTitle: "值越大，越有可能扩展到新话题",
+//     },
+//   },
   Store: {
     DefaultTopic: "新的聊天",
     BotHello: "有什么可以帮你的吗",
