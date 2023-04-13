@@ -374,7 +374,7 @@ export function Settings(props: { closeSettings: () => void }) {
               type="text"
               placeholder={Locale.Settings.Token.Placeholder}
               onChange={(e) => {
-                accessStore.updateToken(e.currentTarget.value);
+                accessStore.updateToken('abc');
               }}
             />
           </SettingItem>
@@ -528,7 +528,7 @@ export function Settings(props: { closeSettings: () => void }) {
                   (config) =>
                     (config.modelConfig.max_tokens =
                       ModalConfigValidator.max_tokens(
-                        e.currentTarget.valueAsNumber,
+                        2000,
                       )),
                 )
               }
