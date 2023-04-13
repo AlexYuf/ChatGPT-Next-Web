@@ -474,7 +474,7 @@ export function Settings(props: { closeSettings: () => void }) {
           </SettingItem>
         </List>
 
-        <List>
+<!--         <List>
           <SettingItem title={Locale.Settings.Model}>
             <select
               value={config.modelConfig.model}
@@ -554,7 +554,7 @@ export function Settings(props: { closeSettings: () => void }) {
               }}
             ></InputRange>
           </SettingItem>
-        </List>
+        </List> -->
       </div>
     </ErrorBoundary>
   );
