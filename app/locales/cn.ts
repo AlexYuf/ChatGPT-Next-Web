@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请私信小红书【飞哥的书】免费获取授权码吧。",
+    Unauthorized: "现在是未授权状态，请添加微信号Alex_Yuf获取授权码吧。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
