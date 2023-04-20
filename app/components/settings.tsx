@@ -374,7 +374,7 @@ export function Settings(props: { closeSettings: () => void }) {
               type="hidden"
               placeholder={Locale.Settings.Token.Placeholder}
               onChange={(e) => {
-                accessStore.updateToken(e.currentTarget.value);
+//                 accessStore.updateToken(e.currentTarget.value);
               }}
             />
           </SettingItem>
