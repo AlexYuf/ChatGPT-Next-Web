@@ -194,10 +194,10 @@ export function Settings(props: { closeSettings: () => void }) {
   const hasNewVersion = currentVersion !== remoteId;
 
   function checkUpdate(force = false) {
-    setCheckingUpdate(true);
-    updateStore.getLatestVersion(force).then(() => {
-      setCheckingUpdate(false);
-    });
+//     setCheckingUpdate(true);
+//     updateStore.getLatestVersion(force).then(() => {
+//       setCheckingUpdate(false);
+//     });
   }
 
   const usage = {
@@ -475,7 +475,7 @@ export function Settings(props: { closeSettings: () => void }) {
               type="text"
               placeholder={Locale.Settings.Token.Placeholder}
               onChange={(e) => {
-                accessStore.updateToken(e.currentTarget.value);
+//                 accessStore.updateToken(e.currentTarget.value);
               }}
             />
           </SettingItem>
@@ -629,7 +629,7 @@ export function Settings(props: { closeSettings: () => void }) {
                   (config) =>
                     (config.modelConfig.max_tokens =
                       ModalConfigValidator.max_tokens(
-                        e.currentTarget.valueAsNumber,
+                        2000,
                       )),
                 )
               }
