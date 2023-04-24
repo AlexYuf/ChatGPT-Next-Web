@@ -201,8 +201,8 @@ export function Settings(props: { closeSettings: () => void }) {
   }
 
   const usage = {
-    used: updateStore.used,
-    subscription: updateStore.subscription,
+//     used: updateStore.used,
+//     subscription: updateStore.subscription,
   };
   const [loadingUsage, setLoadingUsage] = useState(false);
   function checkUsage() {
