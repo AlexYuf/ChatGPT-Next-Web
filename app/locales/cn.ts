@@ -120,9 +120,9 @@ const cn = {
       SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
     },
     Token: {
-      Title: "",
+      Title: "API Key",
       SubTitle: "",
-      Placeholder: "",
+      Placeholder: "OpenAI API Key",
     },
     Usage: {
       Title: "余额查询",
