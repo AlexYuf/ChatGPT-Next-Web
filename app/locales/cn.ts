@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请添加微信号Alex_Yuf获取访问密码吧。",
+    Unauthorized: "同学们，飞哥微信号被禁言了，没有什么收款渠道，这个网站怕是没法再继续给大家公用了，最后让大家白嫖一天。密码：MnW8g%Tj#2F7",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
