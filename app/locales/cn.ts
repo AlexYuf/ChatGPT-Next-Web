@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "用一天五元，不限次数，想用的同学加下微信号Alex_Yuf，看他的朋友圈吧",
+    Unauthorized: "每天五元，不限次数，想用的同学加下微信号Alex_Yuf，看他的朋友圈吧",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
